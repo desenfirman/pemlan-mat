@@ -5,7 +5,7 @@
  */
 package ClassObjectMethod;
 
-import java.util.Scanner;
+
 
 /**
  *
@@ -15,13 +15,11 @@ public class Circle {
 
     private double radius; 
 
-    public void setRadius() {
-        Scanner in = new Scanner(System.in);
-        System.out.print("Masukkan jari-jari: ");
-        radius = in.nextFloat();
+    public void setRadius(double radii) {
+        radius= radii;
     }
     
-
+    
     double getPerimeter() {
         return Math.PI * 2 * radius; 
     }
