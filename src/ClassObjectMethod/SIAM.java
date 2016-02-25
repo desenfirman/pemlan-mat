@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package smstr.pkg2;
+package ClassObjectMethod;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class SIAM {
     public String nama, nim;
     private double tugas,quiz, uts, uas;
-    public double na;
+    public double na, rt;
     
     void setKomponenNilai(int urut){
         Scanner in = new Scanner(System.in);
