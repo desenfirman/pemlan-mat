@@ -5,6 +5,8 @@
  */
 package ClassObjectMethod;
 
+import java.util.Scanner;
+
 /**
  *
  * @author desenfirman
@@ -12,7 +14,9 @@ package ClassObjectMethod;
 public class CircleTest {
     public static void main(String[] args) {
         Circle circ = new Circle();
-        circ.setRadius();
+        Scanner in = new Scanner(System.in);
+        System.out.print("Masukkan jari - jari: ");
+        circ.setRadius(in.nextDouble());
         
         System.out.println("Luas: " + circ.getArea());
         System.out.println("Keliling: " + circ.getPerimeter());
